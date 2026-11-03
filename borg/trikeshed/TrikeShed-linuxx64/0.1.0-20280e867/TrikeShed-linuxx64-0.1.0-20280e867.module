@@ -83,11 +83,11 @@
         {
           "name": "TrikeShed-linuxX64Cinterop-zlinux_uringMain-0.1.0-20280e867.klib",
           "url": "TrikeShed-linuxx64-0.1.0-20280e867-cinterop-zlinux_uring.klib",
-          "size": 79623,
-          "sha512": "be00d8275a68be29d5ecccd1efb711c4db1b7659b1fc442806daaeff92d8e9f62c011d3445c087118a64d0e94ff677fc1a8b28dcef2c4808d99edac4016c59f2",
-          "sha256": "10c988ff783b4d5e338f5c59367e4dbc735224977ea125343e855d8ea91344ce",
-          "sha1": "40e95d8c6d740c15f5678ec737852276b475d28c",
-          "md5": "f333944ab230a5ac6a4e55dd81dd30f1"
+          "size": 68411,
+          "sha512": "cfb78965615e6caea43a1c2ece732fc8abdd7f583ee31b129f51cf418e6305d4adcf0d3415920e8a6f8e923f034449ed35c15f59808cf46b625f40c7818083da",
+          "sha256": "790f2881ba82bd52d76b66a2b1b5ef199044940e1a7ca1399f443b1dec393465",
+          "sha1": "e650fe95f3654ade0a90a662f15e7d131dee8e46",
+          "md5": "ed4586aa64b7678d19b5b2afcdcd28d5"
         }
       ]
     },

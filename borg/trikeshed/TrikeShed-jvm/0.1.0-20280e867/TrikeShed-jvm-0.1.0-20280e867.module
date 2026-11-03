@@ -1,0 +1,326 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../TrikeShed/0.1.0-20280e867/TrikeShed-0.1.0-20280e867.module",
+    "group": "borg.trikeshed",
+    "module": "TrikeShed",
+    "version": "0.1.0-20280e867",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.gwtproject.web.bindery",
+          "module": "requestfactory-client",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-jvm-0.1.0-20280e867.jar",
+          "url": "TrikeShed-jvm-0.1.0-20280e867.jar",
+          "size": 34829639,
+          "sha512": "a8f54acdcfd4afb3acdf723c344cfe3448565e34a47a5fa2c3371250180b4e1710128c9091db10fb920559b1daca7012f885ded796af20c1a40d4887d2208240",
+          "sha256": "78e0f60de328949ada9fef652c8933318aa0bd730df0bf2df75d8d38e91a551e",
+          "sha1": "58d4e9e0dfed5a0d8698c4ebbbb0c70b8df48cb2",
+          "md5": "31975e447a412214e23db5b68f69ba00"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.gwtproject.web.bindery",
+          "module": "requestfactory-client",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.openjdk.jmh",
+          "module": "jmh-core",
+          "version": {
+            "requires": "1.37"
+          }
+        },
+        {
+          "group": "org.openjdk.jmh",
+          "module": "jmh-generator-annprocess",
+          "version": {
+            "requires": "1.37"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.11.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.11.1"
+          }
+        },
+        {
+          "group": "org.graalvm.polyglot",
+          "module": "polyglot",
+          "version": {
+            "requires": "25.3.4.1"
+          }
+        },
+        {
+          "group": "org.graalvm.polyglot",
+          "module": "js-community",
+          "version": {
+            "requires": "25.3.4.1"
+          }
+        },
+        {
+          "group": "org.graalvm.polyglot",
+          "module": "python-community",
+          "version": {
+            "requires": "25.3.4.1"
+          }
+        },
+        {
+          "group": "org.graalvm.python",
+          "module": "python-bouncycastle-support",
+          "version": {
+            "requires": "25.3.4.1"
+          }
+        },
+        {
+          "group": "dev.truffleruby",
+          "module": "truffleruby",
+          "version": {
+            "requires": "40.0.0"
+          }
+        },
+        {
+          "group": "org.graalvm.polyglot",
+          "module": "llvm-community",
+          "version": {
+            "requires": "25.3.4.1"
+          }
+        },
+        {
+          "group": "org.graalvm.truffle",
+          "module": "truffle-api",
+          "version": {
+            "requires": "25.3.4.1"
+          }
+        },
+        {
+          "group": "org.gwtproject.web.bindery",
+          "module": "requestfactory-server",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-common"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm-host"
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.53.4.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.luben",
+          "module": "zstd-jni",
+          "version": {
+            "requires": "1.5.7-24"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-linux-x64",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-common",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm-host",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-jvm-0.1.0-20280e867.jar",
+          "url": "TrikeShed-jvm-0.1.0-20280e867.jar",
+          "size": 34829639,
+          "sha512": "a8f54acdcfd4afb3acdf723c344cfe3448565e34a47a5fa2c3371250180b4e1710128c9091db10fb920559b1daca7012f885ded796af20c1a40d4887d2208240",
+          "sha256": "78e0f60de328949ada9fef652c8933318aa0bd730df0bf2df75d8d38e91a551e",
+          "sha1": "58d4e9e0dfed5a0d8698c4ebbbb0c70b8df48cb2",
+          "md5": "31975e447a412214e23db5b68f69ba00"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "TrikeShed-jvm-0.1.0-20280e867-sources.jar",
+          "url": "TrikeShed-jvm-0.1.0-20280e867-sources.jar",
+          "size": 4446692,
+          "sha512": "01faaf9f87360d5922ab8a8bc18d9bfe095baa3ddb4acd55cc9a657d16bb3e6823efca734e2fc1d5921d9c830d60ee84fbb4de8f3170b0610f96d2a0284b4efb",
+          "sha256": "148927e3d8aae8639035887c78d90fc6ee7b321e9411d4defe509fe582208531",
+          "sha1": "06c674b2e98035f24e74d919a69dede129b0c51c",
+          "md5": "ea71522fcbba7ae160b963de7ccb286b"
+        }
+      ]
+    }
+  ]
+}

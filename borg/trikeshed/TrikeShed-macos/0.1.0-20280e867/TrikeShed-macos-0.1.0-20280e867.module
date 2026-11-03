@@ -1,0 +1,236 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../TrikeShed/0.1.0-20280e867/TrikeShed-0.1.0-20280e867.module",
+    "group": "borg.trikeshed",
+    "module": "TrikeShed",
+    "version": "0.1.0-20280e867",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-macosMain-0.1.0-20280e867.klib",
+          "url": "TrikeShed-macos-0.1.0-20280e867.klib",
+          "size": 17124792,
+          "sha512": "af53060132b44c0f80adaec01200e4afa43e8028ec8b85782a20fad3586c93fe54519ce83b5ffea26eec331b3cd28c6595f4e2bcd36f3e0e305050f2ecf8b714",
+          "sha256": "cb9cf42beda03cbb9e68560935f96fb80efab1588426ca21e55693812cbc3261",
+          "sha1": "25c901405c1bab9cc9d729fdbf940f5111e6467b",
+          "md5": "7c6fddf6f60ec213d8d9f7542656a090"
+        },
+        {
+          "name": "TrikeShed-macosCinterop-posixSpawnMain-0.1.0-20280e867.klib",
+          "url": "TrikeShed-macos-0.1.0-20280e867-cinterop-posixSpawn.klib",
+          "size": 24064,
+          "sha512": "3af0eaf6bbb274f24cab148ab5bf0599001a2f58628858cb1c4f614d8c5e544d3df5ef788f60e1483632c069f1145e68e9c619ba7977b4609a2be47201aa26e6",
+          "sha256": "a3bf0dff2e6a16bd7b781775db4844666e74d2f0535b2c02bf0ee9fb6469b6e1",
+          "sha1": "dc7566092afd82153a332cb86262ddb8e4728c37",
+          "md5": "172ef5affd70c4cbd941a3ad16073c83"
+        },
+        {
+          "name": "TrikeShed-macosCinterop-mlxMain-0.1.0-20280e867.klib",
+          "url": "TrikeShed-macos-0.1.0-20280e867-cinterop-mlx.klib",
+          "size": 94948,
+          "sha512": "5a156121cce595900018d918a314dcc91e424e5d4fa18662a48559937f231cfee4defadcc4fc884f80d19fd586cf17256d1e72e09eb70e65c85d4419fb77151c",
+          "sha256": "529dc67e1de107598e1f8cd10627ccfa4af1254875bb251081ee8df6c8de3cc0",
+          "sha1": "c585fb752ce75df83f3d7e4273bd081f19e24410",
+          "md5": "834cb21dab6b539e75fe350855237218"
+        }
+      ]
+    },
+    {
+      "name": "macosSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "TrikeShed-macos-0.1.0-20280e867-sources.jar",
+          "url": "TrikeShed-macos-0.1.0-20280e867-sources.jar",
+          "size": 3475196,
+          "sha512": "f12db3fdc05d2953da20b75a8c259f72f7564beddc56fcaaf480905e1dda99ac28931d0e88bad4eb3235e1ba2222d807750e3146b4ccc738f6bfa3d9678823f2",
+          "sha256": "ed537686bf71cc00b27cf3bdedd51efd5756287fdb52b6067333a127998d813a",
+          "sha1": "cc72de5161c9c5b900fcadff93088c567e343ce6",
+          "md5": "03544d749edc7ea53a6f9c5cb99885b6"
+        }
+      ]
+    },
+    {
+      "name": "macosResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-0.1.0-20280e867.kotlin_resources.zip",
+          "url": "TrikeShed-macos-0.1.0-20280e867-kotlin_resources.kotlin_resources.zip",
+          "size": 336,
+          "sha512": "654caeb2c8426a864712a447a0c0d3208d1b2dcd4c38d3ab79abfa19cd92e401fc7a13c210ef66983a5356698364dd59c76b48895565cf0630b86c610acf2c96",
+          "sha256": "243b8ac327bc3f8b230403e4e2ba09a31d222734b399f204969208909e1de077",
+          "sha1": "1c0df12dc64d3f08dc7ef9771a84f36aa6fc3086",
+          "md5": "d63838da0390ad6d6f904a4bc59c7cc3"
+        }
+      ]
+    },
+    {
+      "name": "macosMetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-macos-0.1.0-20280e867-metadata.jar",
+          "url": "TrikeShed-macos-0.1.0-20280e867-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

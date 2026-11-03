@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../TrikeShed/0.1.0-20280e867/TrikeShed-0.1.0-20280e867.module",
+    "group": "borg.trikeshed",
+    "module": "TrikeShed",
+    "version": "0.1.0-20280e867",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-linuxX64Main-0.1.0-20280e867.klib",
+          "url": "TrikeShed-linuxx64-0.1.0-20280e867.klib",
+          "size": 17180433,
+          "sha512": "d1fc9f3310ac4cda628a2dbccd3d6161dbf9463c0fb97f5eba8d0e8fadd0c156b73283459c231f6e64708c0cf4e6fac746bff028cdb60557850364232ca1fd35",
+          "sha256": "9fbd372463dde1efe940a52ef33d6a78f3dd37174730723ab08cf381a7ab47f8",
+          "sha1": "c0d1eff99cbb0bdb536314bd20d2cd706b3282c4",
+          "md5": "ebd07509dfb4b5eda4d147c71295a089"
+        },
+        {
+          "name": "TrikeShed-linuxX64Cinterop-posixSpawnMain-0.1.0-20280e867.klib",
+          "url": "TrikeShed-linuxx64-0.1.0-20280e867-cinterop-posixSpawn.klib",
+          "size": 30208,
+          "sha512": "f8a3407a9baf6e1268308eefe21d5eeb771308d6d6d527c3d60cf15d0a86856db63ef46727fe51e14d6ca177516531c1b4d1d5fb26c42d5c3a4c2802ab13f02b",
+          "sha256": "ddd765a8f38dc090b23c6b84e10104bd0d567bb7471c8257c9b7a080f7b7a48c",
+          "sha1": "cf696ba2dad7eb1c82d234303cb0d4783e4e05a9",
+          "md5": "f6c5ac686136e1cdcb3f3c5ba2d8d485"
+        },
+        {
+          "name": "TrikeShed-linuxX64Cinterop-zlinux_uringMain-0.1.0-20280e867.klib",
+          "url": "TrikeShed-linuxx64-0.1.0-20280e867-cinterop-zlinux_uring.klib",
+          "size": 79623,
+          "sha512": "be00d8275a68be29d5ecccd1efb711c4db1b7659b1fc442806daaeff92d8e9f62c011d3445c087118a64d0e94ff677fc1a8b28dcef2c4808d99edac4016c59f2",
+          "sha256": "10c988ff783b4d5e338f5c59367e4dbc735224977ea125343e855d8ea91344ce",
+          "sha1": "40e95d8c6d740c15f5678ec737852276b475d28c",
+          "md5": "f333944ab230a5ac6a4e55dd81dd30f1"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "TrikeShed-linuxx64-0.1.0-20280e867-sources.jar",
+          "url": "TrikeShed-linuxx64-0.1.0-20280e867-sources.jar",
+          "size": 3486510,
+          "sha512": "5bd5aeaf7a09b478a88649794c2489f6eba58cfe5c0ae72911c64075c84a6369b33c7c346d2e59db20f64118646a653684acbd4e6fee30d4a9bc3410124ca17e",
+          "sha256": "9e06fa30495c6445fa862fb9c8cf8651ea5fc931b82f985bfc90618a856055f7",
+          "sha1": "f85e76e3e2a9502738a1c58c43450a7b459fdd61",
+          "md5": "305b3da219ff3ff09de693ba1dc2fb4e"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-0.1.0-20280e867.kotlin_resources.zip",
+          "url": "TrikeShed-linuxx64-0.1.0-20280e867-kotlin_resources.kotlin_resources.zip",
+          "size": 336,
+          "sha512": "654caeb2c8426a864712a447a0c0d3208d1b2dcd4c38d3ab79abfa19cd92e401fc7a13c210ef66983a5356698364dd59c76b48895565cf0630b86c610acf2c96",
+          "sha256": "243b8ac327bc3f8b230403e4e2ba09a31d222734b399f204969208909e1de077",
+          "sha1": "1c0df12dc64d3f08dc7ef9771a84f36aa6fc3086",
+          "md5": "d63838da0390ad6d6f904a4bc59c7cc3"
+        }
+      ]
+    }
+  ]
+}

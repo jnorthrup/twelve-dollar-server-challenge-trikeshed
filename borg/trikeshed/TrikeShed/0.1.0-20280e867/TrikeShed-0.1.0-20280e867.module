@@ -1,0 +1,575 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "borg.trikeshed",
+    "module": "TrikeShed",
+    "version": "0.1.0-20280e867",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-metadata-0.1.0-20280e867.jar",
+          "url": "TrikeShed-0.1.0-20280e867.jar",
+          "size": 1787436,
+          "sha512": "45eec35e9aff5f5874fce5b585c737f549f1de31b57428f85e1ae4bed57017e79da44b24e0812e609f04cde1145a02e3cafb2685e932f63c44bb75afbd80353a",
+          "sha256": "c0e3b5c9eee85cfa579f0b7051afb7d89732c0f504a4e12ee62ee5c12f50b7e3",
+          "sha1": "e81fea170464b49c6ffeba85d4a94560b0a72e15",
+          "md5": "49ca184d70b6dea6b3a8a11d73efaf25"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "TrikeShed-kotlin-0.1.0-20280e867-sources.jar",
+          "url": "TrikeShed-0.1.0-20280e867-sources.jar",
+          "size": 3487589,
+          "sha512": "ed211a6357c98c060e55959af3afeaef352e2510ce447513192e9f81413682ea8b74e8a6e8876ec8bc12b42739ccedfb78a483bdf26e05fbda5cd81ca9f2bc38",
+          "sha256": "ed253224ef877dd9ba90fa3709b1e52b8c51922311ab1cc0e7837840001421a3",
+          "sha1": "e99f8d094326506f902d95e3391c906f2a4ccc15",
+          "md5": "f65da26c6223d9210a1695a56828a791"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-js/0.1.0-20280e867/TrikeShed-js-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-js",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-js/0.1.0-20280e867/TrikeShed-js-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-js",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-js/0.1.0-20280e867/TrikeShed-js-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-js",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-js/0.1.0-20280e867/TrikeShed-js-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-js",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-jvm/0.1.0-20280e867/TrikeShed-jvm-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-jvm",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-jvm/0.1.0-20280e867/TrikeShed-jvm-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-jvm",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-jvm/0.1.0-20280e867/TrikeShed-jvm-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-jvm",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-linuxarm64/0.1.0-20280e867/TrikeShed-linuxarm64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-linuxarm64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-linuxarm64/0.1.0-20280e867/TrikeShed-linuxarm64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-linuxarm64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "linuxArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-linuxarm64/0.1.0-20280e867/TrikeShed-linuxarm64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-linuxarm64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-linuxx64/0.1.0-20280e867/TrikeShed-linuxx64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-linuxx64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-linuxx64/0.1.0-20280e867/TrikeShed-linuxx64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-linuxx64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "linuxX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-linuxx64/0.1.0-20280e867/TrikeShed-linuxx64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-linuxx64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-mingwx64/0.1.0-20280e867/TrikeShed-mingwx64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-mingwx64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-mingwx64/0.1.0-20280e867/TrikeShed-mingwx64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-mingwx64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "mingwX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-mingwx64/0.1.0-20280e867/TrikeShed-mingwx64-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-mingwx64",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-wasm-js/0.1.0-20280e867/TrikeShed-wasm-js-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-wasm-js",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-wasm-js/0.1.0-20280e867/TrikeShed-wasm-js-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-wasm-js",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-wasm-js/0.1.0-20280e867/TrikeShed-wasm-js-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-wasm-js",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-wasm-js/0.1.0-20280e867/TrikeShed-wasm-js-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-wasm-js",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-wasm-wasi/0.1.0-20280e867/TrikeShed-wasm-wasi-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-wasm-wasi",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-wasm-wasi/0.1.0-20280e867/TrikeShed-wasm-wasi-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-wasm-wasi",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-wasm-wasi/0.1.0-20280e867/TrikeShed-wasm-wasi-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-wasm-wasi",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "wasmWasiResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-wasm-wasi/0.1.0-20280e867/TrikeShed-wasm-wasi-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-wasm-wasi",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "macosApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-macos/0.1.0-20280e867/TrikeShed-macos-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-macos",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "macosSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-macos/0.1.0-20280e867/TrikeShed-macos-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-macos",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "macosResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-macos/0.1.0-20280e867/TrikeShed-macos-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-macos",
+        "version": "0.1.0-20280e867"
+      }
+    },
+    {
+      "name": "macosMetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../TrikeShed-macos/0.1.0-20280e867/TrikeShed-macos-0.1.0-20280e867.module",
+        "group": "borg.trikeshed",
+        "module": "TrikeShed-macos",
+        "version": "0.1.0-20280e867"
+      }
+    }
+  ]
+}

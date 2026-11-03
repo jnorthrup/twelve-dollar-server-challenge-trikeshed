@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../TrikeShed/0.1.0-20280e867/TrikeShed-0.1.0-20280e867.module",
+    "group": "borg.trikeshed",
+    "module": "TrikeShed",
+    "version": "0.1.0-20280e867",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-wasm-js-0.1.0-20280e867.klib",
+          "url": "TrikeShed-wasm-js-0.1.0-20280e867.klib",
+          "size": 16377468,
+          "sha512": "dca783a3be3010992390f970e5e3af38fbbf483cdd3f1b355764474311cd52aaa964ec5ed734f9296b50d0f777caeab39301c8e211b9f8c099ddde773cded524",
+          "sha256": "8e005a3ba3d33ec349ef7c4b9c35d2a4b6799e48b0146520a4a4a4f7ee927bd1",
+          "sha1": "48306ac55eb6ef232e31f08b10a7f2b51c61fe99",
+          "md5": "b3f29c18a5aff38398eaf8edda384075"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-wasm-js-0.1.0-20280e867.klib",
+          "url": "TrikeShed-wasm-js-0.1.0-20280e867.klib",
+          "size": 16377468,
+          "sha512": "dca783a3be3010992390f970e5e3af38fbbf483cdd3f1b355764474311cd52aaa964ec5ed734f9296b50d0f777caeab39301c8e211b9f8c099ddde773cded524",
+          "sha256": "8e005a3ba3d33ec349ef7c4b9c35d2a4b6799e48b0146520a4a4a4f7ee927bd1",
+          "sha1": "48306ac55eb6ef232e31f08b10a7f2b51c61fe99",
+          "md5": "b3f29c18a5aff38398eaf8edda384075"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "TrikeShed-wasm-js-0.1.0-20280e867-sources.jar",
+          "url": "TrikeShed-wasm-js-0.1.0-20280e867-sources.jar",
+          "size": 3399376,
+          "sha512": "74ae41171358f1a2da2406800b1f4e40f8083b957d56add5d7cebc79f327a11506b34aaabe0ff6499f23fed6e21236c166c2a0f6e3541df3ac8016d519fedf0a",
+          "sha256": "440ec5b9fed75b7f20747988e4abbef16fe9f14e3ec51d567f40179291f5b325",
+          "sha1": "2e326351287f32040045779420a407689501e1b0",
+          "md5": "97c1e53bac1154400abc60cbb9be28c3"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.6.x-compat"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TrikeShed-0.1.0-20280e867.kotlin_resources.zip",
+          "url": "TrikeShed-wasm-js-0.1.0-20280e867-kotlin_resources.kotlin_resources.zip",
+          "size": 336,
+          "sha512": "654caeb2c8426a864712a447a0c0d3208d1b2dcd4c38d3ab79abfa19cd92e401fc7a13c210ef66983a5356698364dd59c76b48895565cf0630b86c610acf2c96",
+          "sha256": "243b8ac327bc3f8b230403e4e2ba09a31d222734b399f204969208909e1de077",
+          "sha1": "1c0df12dc64d3f08dc7ef9771a84f36aa6fc3086",
+          "md5": "d63838da0390ad6d6f904a4bc59c7cc3"
+        }
+      ]
+    }
+  ]
+}
